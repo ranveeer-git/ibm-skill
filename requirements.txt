@@ -1,0 +1,2 @@
+# Python 3.10 or newer. All application and test dependencies are standard library.
+# No pip packages are required to run CyberShield.
