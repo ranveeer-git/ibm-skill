@@ -10,7 +10,7 @@ CSV import, adjustable detection thresholds, an event-volume chart, and JSON exp
 Install Python 3.10 or newer, open a terminal in this project folder, and run:
 
 ```powershell
-python YourName_CyberShield.py
+python ibmskillsbuild_CyberShield.py
 ```
 
 Open **http://127.0.0.1:8000** in your browser and click **Load demo**.
@@ -20,18 +20,16 @@ is required. `requirements.txt` records this. Internet access is not required.
 
 ## Submission files
 
-- `YourName_CyberShield.py`: complete application code, including dashboard UI.
+- `ibmskillsbuild_CyberShield.py`: complete application code, including dashboard UI.
 - `requirements.txt`: runtime dependency declaration.
-- `YourName_ProjectReport.docx`: project documentation.
+- `ibmskillsbuild_ProjectReport.docx`: project documentation.
 - `README.md`: overview, setup, data provenance, schema, limitations, and demo steps.
 - `data/demo_events.csv`: included synthetic dataset.
 - `generate_demo.py`: deterministic dataset generator.
 - `test_cybershield.py`: automated detection and HTTP tests.
 
-Replace `YourName` with your name in the application and report filenames before
-submission. If renaming the Python module, update imports in the generator and
-tests as well. The attachment allows `.py` or `.ipynb`; this project supplies `.py`.
-Fill in the student name in the report. Keep the `data` folder beside the application.
+Submission filenames use `ibmskillsbuild`. The attachment allows `.py` or `.ipynb`;
+this project supplies `.py`. Keep the `data` folder beside the application.
 
 ## Dataset and provenance
 
@@ -46,7 +44,7 @@ Regenerate and test:
 ```powershell
 python generate_demo.py
 python -m unittest -v
-python YourName_CyberShield.py --analyze data/demo_events.csv --output findings.json
+python ibmskillsbuild_CyberShield.py --analyze data/demo_events.csv --output findings.json
 ```
 
 ## Input schema

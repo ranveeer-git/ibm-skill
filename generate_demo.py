@@ -1,7 +1,7 @@
 """Generate deterministic synthetic observations; no external dataset required."""
 import csv
 from pathlib import Path
-from YourName_CyberShield import FIELDS
+from ibmskillsbuild_CyberShield import FIELDS
 
 
 def generate():
