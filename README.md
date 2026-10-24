@@ -1,5 +1,7 @@
 # CyberShield Security Dashboard
 
+Author: Ranveer
+
 A Python cybersecurity bootcamp project for analyzing suspected DDoS traffic,
 traffic floods, brute-force login attempts, phishing URL indicators, and account
 two-factor authentication (2FA) coverage. Includes a local browser dashboard,
@@ -22,13 +24,13 @@ is required. `requirements.txt` records this. Internet access is not required.
 
 - `ibmskillsbuild_CyberShield.py`: complete application code, including dashboard UI.
 - `requirements.txt`: runtime dependency declaration.
-- `ibmskillsbuild_ProjectReport.docx`: project documentation.
+- `Ranveer_ProjectReport.docx`: project documentation.
 - `README.md`: overview, setup, data provenance, schema, limitations, and demo steps.
 - `data/demo_events.csv`: included synthetic dataset.
 - `generate_demo.py`: deterministic dataset generator.
 - `test_cybershield.py`: automated detection and HTTP tests.
 
-Submission filenames use `ibmskillsbuild`. The attachment allows `.py` or `.ipynb`;
+The report author is Ranveer. The application module uses `ibmskillsbuild`. The attachment allows `.py` or `.ipynb`;
 this project supplies `.py`. Keep the `data` folder beside the application.
 
 ## Dataset and provenance
